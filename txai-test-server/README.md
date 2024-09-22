@@ -6,6 +6,10 @@ docker run -it --rm -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=txai --name 
 
 npx prisma migrate dev
 
+## Run Seed
+
+npm prisma seed
+
 ## Start application
 
 npm run start:dev
